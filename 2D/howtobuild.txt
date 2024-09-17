@@ -1,0 +1,3 @@
+pyinstaller --onefile --add-data "C:\....\AppData\Local\Programs\Python\PythonXXX\Lib\site-packages\ultralytics\cfg\default.yaml;ultralytics\cfg" _.py
+
+Use yamlpath.py to find path.

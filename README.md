@@ -1,7 +1,16 @@
 # KinePose
-Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints"
 
+The **KinePose framework** employs a modular suite of computer vision (CV) and inverse kinematics (IK) techniques to track human body motions from image/video data.
 
+### Computer Vision Techniques
+The initial step is 2D human pose estimation (2DHPE), employing a deep learning (DL) model trained on annotated image data, which localises body keypoints in pixel-space; **YOLOv8** trained on the MS COCO dataset is currently implemented in the pipeline. Optional manual refinement tools are also provided for enhanced accuracy. 
+
+For monocular data, 3D human pose estimation (3DHPE) can subsequently be achieved through a DL model trained on motion capture data; **MotionBert** trained on the H3.6M dataset is currently implemented in the pipeline. For multi-camera data, we have devised a **weighted midpoint method (wMP)** to triangulate 2D coordinates into 3D while weighting the solution by individual 2D keypoint confidence scores.
+
+### Inverse Kinematics Algorithms
+The IK system allows for a fully user-defined kinematic chain, accommodating various joint numbers, placements, configurations, degrees of freedom (DOFs), and ranges of motion (ROMs) as Euler/Cardan angle ranges from the rest pose for HBM-specific results.
+
+Furthermore, specific pose and temporal loss terms, weights, and temporal patch lengths can be tailored to the needs of the analysis. See reference [4] for details on the algorithms. The outputs are joint orientations in both global and local coordinate systems, and angular velocities, with optional **Savitzky-Golay filtering** to reduce noise while preserving key motion features.
 
 
 
@@ -21,7 +30,7 @@ Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF
 }
 @inproceedings{Gildea24b,
     author    = {Gildea, Kevin and Hall, Daniel and Simms, Ciaran},
-    title     = {KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints},
+    title     = {Forward dynamics computational modelling of a cyclist fall with the inclusion of protective response using deep learning-based human pose estimation},
     booktitle = {Journal of Biomechanics},
     year      = {2024},
 }
@@ -32,6 +41,8 @@ Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF
 <a href="https://www.saferresearch.com/projects/advancements-kinepose-framework">
   <img src="images/SAFER.svg" alt="Funded by Organization" width="200"/>
 </a>
+
+<br>
 
 <a href="https://portal.research.lu.se/en/projects/surrogate-measures-of-safety-for-single-bicycle-crashes">
   <img src="images/TRAFIKVERKET.png" alt="Funded by Organization" width="200"/>

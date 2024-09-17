@@ -2,7 +2,7 @@
 
 The **KinePose framework** employs a modular suite of computer vision (CV) and inverse kinematics (IK) techniques to track human body motions from image/video data.
 
-<img src="images/IRCOBI2024_Fig1.png" alt="KinePose Framework" width="400"/>
+<img src="images/IRCOBI2024_Fig1.png" alt="KinePose Framework" width="1000"/>
 
 ### Computer Vision Techniques
 The initial step is 2D human pose estimation (2DHPE), employing a deep learning (DL) model trained on annotated image data, which localises body keypoints in pixel-space; **YOLOv8** trained on the MS COCO dataset is currently implemented in the pipeline. Optional manual refinement tools are also provided for enhanced accuracy. 
@@ -14,7 +14,7 @@ The IK system allows for a fully user-defined kinematic chain, accommodating var
 
 Furthermore, specific pose and temporal loss terms, weights, and temporal patch lengths can be tailored to the needs of the analysis. See reference [4] for details on the algorithms. The outputs are joint orientations in both global and local coordinate systems, and angular velocities, with optional **Savitzky-Golay filtering** to reduce noise while preserving key motion features.
 
-<img src="images/IRCOBI2024_Fig2.png" alt="KinePose Applications" width="400"/>
+<img src="images/IRCOBI2024_Fig2.png" alt="KinePose Applications" width="1000"/>
 
 ## Citation
 ```

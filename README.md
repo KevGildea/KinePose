@@ -1,7 +1,7 @@
 # KinePose
-Code repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints"
+Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints"
 
-# Coming soon...
+
 
 
 
@@ -14,3 +14,5 @@ Code repo for "KinePose: A temporally optimized inverse kinematics technique for
     year      = {2022},
 }
 ```
+
+## Funding

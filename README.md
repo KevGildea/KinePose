@@ -29,3 +29,4 @@ Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF
 
 ## Funding
 [![alt text](images/SAFER.svg)](https://www.saferresearch.com/projects/advancements-kinepose-framework)
+[![alt text](images/TRAFIKVERKET.png)](https://portal.research.lu.se/en/projects/surrogate-measures-of-safety-for-single-bicycle-crashes)

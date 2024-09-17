@@ -21,7 +21,7 @@ Repo for "KinePose: A temporally optimized inverse kinematics technique for 6DOF
 }
 @inproceedings{Gildea24b,
     author    = {Gildea, Kevin and Hall, Daniel and Simms, Ciaran},
-    title     = {KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints},
+    title     = {Forward dynamics computational modelling of a cyclist fall with the inclusion of protective response using deep learning-based human pose estimation},
     booktitle = {Journal of Biomechanics},
     year      = {2024},
 }

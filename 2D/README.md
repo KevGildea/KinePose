@@ -8,4 +8,5 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4)
 
 
 ## To Do:
-1. 
+1. Outut confidence scores
+2. Custom pose tool

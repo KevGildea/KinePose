@@ -1,0 +1,17 @@
+nose: 953, 560
+left_eye: 956, 555
+right_eye: 953, 556
+left_ear: 968, 553
+right_ear: 958, 555
+left_shoulder: 985, 573
+right_shoulder: 968, 574
+left_elbow: 980, 604
+right_elbow: 951, 600
+left_wrist: 956, 630
+right_wrist: 923, 618
+left_hip: 1003, 634
+right_hip: 990, 633
+left_knee: 972, 657
+right_knee: 962, 655
+left_ankle: 989, 705
+right_ankle: 979, 702

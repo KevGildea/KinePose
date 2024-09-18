@@ -1,0 +1,17 @@
+nose: 1923, 330
+left_eye: 1932, 322
+right_eye: 1920, 322
+left_ear: 1950, 321
+right_ear: 1917, 321
+left_shoulder: 1971, 363
+right_shoulder: 1909, 354
+left_elbow: 1964, 421
+right_elbow: 1870, 386
+left_wrist: 1915, 462
+right_wrist: 1828, 415
+left_hip: 1962, 473
+right_hip: 1918, 465
+left_knee: 1926, 532
+right_knee: 1856, 521
+left_ankle: 1951, 611
+right_ankle: 1866, 601

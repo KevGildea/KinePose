@@ -1,0 +1,17 @@
+nose: 1571, 355
+left_eye: 1581, 343
+right_eye: 1562, 345
+left_ear: 1604, 335
+right_ear: 1555, 341
+left_shoulder: 1643, 382
+right_shoulder: 1538, 384
+left_elbow: 1678, 452
+right_elbow: 1515, 457
+left_wrist: 1676, 524
+right_wrist: 1518, 503
+left_hip: 1627, 514
+right_hip: 1559, 512
+left_knee: 1622, 621
+right_knee: 1544, 606
+left_ankle: 1618, 716
+right_ankle: 1527, 722

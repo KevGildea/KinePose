@@ -17,6 +17,26 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 - **File Output**: The intrinsic matrix is saved in a text format (`.tacal`), including pixel scaling and focal length data.
 
 
+## PnP.exe
+
+This tool facilitates camera pose estimation using a set of 3D world points and corresponding 2D image points. The process calculates the extrinsic parameters of the camera (rotation and translation) using the **Perspective-n-Point** (PnP) algorithm. Key features:
+
+- **Load Image**: Select and display an image to annotate.
+- **Load World Points**: Load a set of 3D world coordinates from a `.txt` file.
+- **Load .tacal (Intrinsics)**: Load the camera's intrinsic parameters from a `.tacal` file.
+- **Annotate Image**: Manually annotate corresponding 2D image points by clicking on the loaded image.
+- **Pan and Zoom Functionality**: Navigate the image for precise annotations.
+- **Save Calibration**: Save the computed extrinsic parameters (rotation, translation) to a `.tacal` file, and log reprojection errors.
+
+### Outputs:
+- **Extrinsic Parameters**:
+  - Rotation matrix (R)
+  - Translation vector (T)
+- **File Output**: The extrinsic matrix is saved in the `.tacal` format, updating the previously loaded file with the new extrinsic data.
+- **Reprojection Error Log**: Saves a log file containing the reprojection errors for each point, as well as the mean and maximum error.
+
+
+
 
 
 

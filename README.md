@@ -37,6 +37,31 @@ graph LR;
     
     6DOF --> KinePose[KinePose.exe];
 
+    %% Notes for each branch
+    classDef noteIntrinsics fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef notePnP fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteTsai fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteAuto fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteSemiAuto fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteManual fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteMonocular fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef note3DMonocular fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteMulticamera fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteWMP fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef noteKinePose fill:#f9f,stroke:#333,stroke-width:2px;
+
+    Intrinsics:::noteIntrinsics --> "Tool for intrinsic camera calibration";
+    PnP:::notePnP --> "Tool for pose estimation using known intrinsics";
+    Tsai:::noteTsai --> "External tool for Tsai calibration method";
+    Auto:::noteAuto --> "Automatic 2D pose estimation";
+    SemiAuto:::noteSemiAuto --> "Semi-automatic 2D pose estimation";
+    Manual:::noteManual --> "Manual 2D pose refinement";
+    Monocular:::noteMonocular --> "Single camera 3D pose estimation";
+    3DMonocular:::note3DMonocular --> "3D keypoints from monocular data";
+    Multicamera:::noteMulticamera --> "Multi-camera 3D pose estimation";
+    wMP:::noteWMP --> "Weighted midpoint triangulation for 3D";
+    KinePose:::noteKinePose --> "6 degrees of freedom inverse kinematics tool";
+
 ```
 
 

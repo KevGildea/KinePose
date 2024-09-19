@@ -1,6 +1,6 @@
 ## [Auto.exe](Dist/Auto.exe)
 
-This tool automates human pose annotation in videos using the YOLOv8 model, designed for 2D pose estimation on the MS COCO dataset. Run on a Windows machine as administrator.
+This tool automates human pose annotation in videos using the YOLOv8 model, trained for 2D pose estimation on the MS COCO dataset. Run on a Windows machine as administrator.
 
 ### Key features:
 

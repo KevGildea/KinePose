@@ -1,6 +1,6 @@
 ## [3DMonocular.exe](Dist/3DMonocular.exe)
 
-This tool reconstructs 3D human poses from 2D pose sequences using deep learning models adapted from the MotionBERT framework. The input can be 2D pose keypoints extracted from images or video, and the output is a 3D pose representation. Run on a Windows machine as administrator, and include accompanying '.bin', and '.yaml' files in the same directory.
+This tool reconstructs 3D human poses from 2D pose sequences using deep learning models adapted from the [MotionBERT](https://github.com/Walter0807/MotionBERT) framework. The input can be 2D pose keypoints extracted from images or video, and the output is a 3D pose representation. Run on a Windows machine as administrator, and include accompanying '.bin', and '.yaml' files in the same directory.
 
 ### Key features:
 

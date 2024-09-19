@@ -22,7 +22,7 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 graph LR;
     Calibration --> Knowable[Knowable Intrinsics: Known camera parameters];
     Knowable --> Intrinsics[Intrinsics.exe: Tool for intrinsic camera calibration];
-    Knowable --> PnP[PnP.exe: Tool for pose estimation using known intrinsics];
+    Knowable --> PnP[PnP.exe: Tool for determining camera extrinsics using known intrinsics];
     Calibration --> Unknown[Unknown Intrinsics: Unknown camera parameters];
     Unknown --> Tsai[Tsai Method: External tool for Tsai calibration method];
     

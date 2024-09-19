@@ -41,6 +41,7 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 ```
 
 ## Flowchart
+
 ```mermaid
 graph TD;
     Calibration --> |Knowable_intrinsics| Knowable[Knowable Intrinsics];
@@ -59,7 +60,7 @@ graph TD;
     Multicamera --> wMP[wMP.exe];
     
     6DOF --> KinePose[KinePose.exe];
-
+```
 
 
 

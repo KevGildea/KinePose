@@ -45,21 +45,25 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 ```mermaid
 graph TD;
     Calibration --> Knowable[Knowable Intrinsics];
-    Knowable --> Intrinsics[Intrinsics.exe];
-    Knowable --> PnP[PnP.exe];
+    Knowable --> Intrinsics[[Intrinsics.exe](./Calibration/Knowable_intrinsics/Dist/Intrinsics.exe)];
+    Knowable --> PnP[[PnP.exe](./Calibration/Knowable_intrinsics/Dist/PnP.exe)];
     Calibration --> Unknown[Unknown Intrinsics];
-    Unknown --> Tsai[Tsai Method];
+    Unknown --> Tsai[[Tsai Method](https://example.com/tsai-calibration-tool)];
     
-    2D --> Auto[Auto.exe];
-    2D --> SemiAuto[Semi-auto.exe];
-    2D --> Manual[Manual.exe];
+    Calibration --> 2D;
+    2D --> Auto[[Auto.exe](./2D/Dist/Auto.exe)];
+    2D --> SemiAuto[[Semi-auto.exe](./2D/Dist/Semi-auto.exe)];
+    2D --> Manual[[Manual.exe](./2D/Dist/Manual.exe)];
     
-    3D --> Monocular[3D Monocular];
-    Monocular --> 3DMonocular[3DMonocular.exe];
+    2D --> 3D;
+    3D --> Monocular[Monocular];
+    Monocular --> 3DMonocular[[3DMonocular.exe](./3D/Monocular/Dist/3DMonocular.exe)];
     3D --> Multicamera[Multicamera];
-    Multicamera --> wMP[wMP.exe];
+    Multicamera --> wMP[[wMP.exe](./3D/Multicamera/Dist/wMP.exe)];
     
-    6DOF --> KinePose[KinePose.exe];
+    3D --> 6DOF;
+    6DOF --> KinePose[[KinePose.exe](./6DOF/Dist/KinePose.exe)];
+
 ```
 
 

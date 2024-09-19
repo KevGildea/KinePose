@@ -40,6 +40,29 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 }
 ```
 
+## Flowchart
+```mermaid
+graph TD;
+    Calibration --> |Knowable_intrinsics| Knowable[Knowable Intrinsics];
+    Knowable --> Intrinsics[Intrinsics.exe];
+    Knowable --> PnP[PnP.exe];
+    Calibration --> |Unknown_intrinsics| Unknown[Unknown Intrinsics];
+    Unknown --> Tsai[Tsai Method];
+    
+    2D --> Auto[Auto.exe];
+    2D --> SemiAuto[Semi-auto.exe];
+    2D --> Manual[Manual.exe];
+    
+    3D --> Monocular[3D Monocular];
+    Monocular --> 3DMonocular[3DMonocular.exe];
+    3D --> Multicamera[Multicamera];
+    Multicamera --> wMP[wMP.exe];
+    
+    6DOF --> KinePose[KinePose.exe];
+
+
+
+
 ## Funding
 
 <a href="https://www.saferresearch.com/projects/advancements-kinepose-framework">

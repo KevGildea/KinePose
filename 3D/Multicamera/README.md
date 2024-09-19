@@ -17,9 +17,16 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
 
 ### GUI
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/wMP.PNG" alt="wMP.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/wMP1.PNG" alt="wMP.exe" width="500">
   <br>
   <i>The GUI of the wMP.exe application.</i>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/wMP2.PNG" alt="wMP.exe" width="500">
+  <br>
+  <i>Triangulated pose visualisation in the wMP.exe application.</i>
 </p>
 
 

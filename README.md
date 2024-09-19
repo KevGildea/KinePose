@@ -19,7 +19,7 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 ## Flowchart
 
 ```mermaid
-graph TD;
+graph LR;
     Calibration --> Knowable[Knowable Intrinsics];
     Knowable --> Intrinsics[Intrinsics.exe];
     Knowable --> PnP[PnP.exe];

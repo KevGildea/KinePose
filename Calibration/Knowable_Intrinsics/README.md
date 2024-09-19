@@ -1,6 +1,6 @@
 ## [Intrinsics.exe](Dist/Intrinsics.exe)
 
-This tool performs camera calibration using images of a checkerboard pattern. The calibration process computes the intrinsic camera parameters, including focal lengths and distortion coefficients. Run on a Windows machine as administrator. 
+This tool performs camera calibration using images of a checkerboard pattern. The calibration process computes the intrinsic camera parameters, including focal lengths and distortion coefficients. Run on a Windows machine as administrator.
 
 ### Key features:
 
@@ -17,6 +17,15 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
   - Principal points (Cx, Cy)
   - Radial distortion coefficient (k)
 - **File Output**: The intrinsic matrix is saved in a text format (`.tacal`).
+
+### GUI
+
+<p align="center">
+  <img src="../images/Intrinsics.png" alt="Alt text" width="500">
+  <br>
+  <i>GUI for the Intrinsics.exe.</i>
+</p>
+
 
 
 ## [PnP.exe](Dist/PnP.exe)

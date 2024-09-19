@@ -19,9 +19,12 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 - **File Output**: The intrinsic matrix is saved in a text format (`.tacal`).
 
 ### GUI
+<p align="center">
+  <img src="..../images/Intrinsics.PNG" alt="Intrinsics.exe" width="500">
+  <br>
+  <i>The GUI of the Intrinsics.exe application.</i>
+</p>
 
-![Intrinsics.exe](../images/Intrinsics.PNG)
-*The GUI of the Intrinsics.exe application.*
 
 
 

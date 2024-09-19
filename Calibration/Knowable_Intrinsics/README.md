@@ -20,11 +20,8 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 
 ### GUI
 
-<p align="center">
-  <img src="[relative/path/to/image.png](https://github.com/KevGildea/KinePose/blob/af19b78f844eb2ef37f3549af7cf630ceddcd157/images/Intrinsics.PNG)" alt="Intrinsics.exe" width="500">
-  <br>
-  <i>GUI for the Intrinsics.exe.</i>
-</p>
+![Intrinsics.exe](../images/Intrinsics.PNG)
+*The GUI of the Intrinsics.exe application.*
 
 
 

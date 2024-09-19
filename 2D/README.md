@@ -17,7 +17,7 @@ This tool automates human pose annotation in videos using the YOLOv8 model, desi
 
 ### GUI
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Auto.PNG" alt="Auto.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Auto.PNG" alt="Auto.exe" width="300">
   <br>
   <i>The GUI of the Auto.exe application.</i>
 </p>
@@ -41,7 +41,7 @@ This tool assists with semi-automatic human pose annotation in images using the 
 
 ### GUI
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Semi-auto.PNG" alt="Semi-auto.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Semi-auto.PNG" alt="Semi-auto.exe" width="300">
   <br>
   <i>The GUI of the Semi-auto.exe application.</i>
 </p>
@@ -66,7 +66,7 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 
 ### GUI
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Manual.PNG" alt="Manual.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Manual.PNG" alt="Manual.exe" width="300">
   <br>
   <i>The GUI of the Manual.exe application.</i>
 </p>

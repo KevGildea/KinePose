@@ -21,7 +21,7 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 ### GUI
 
 <p align="center">
-  <img src="../images/Intrinsics.png" alt="Alt text" width="500">
+  <img src=".../images/Intrinsics.png" alt="Alt text" width="500">
   <br>
   <i>GUI for the Intrinsics.exe.</i>
 </p>

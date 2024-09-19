@@ -40,7 +40,7 @@ graph LR;
 
 
 
-## Citation
+## Citations
 ```
 @inproceedings{Gildea22,
     author    = {Gildea, Kevin and Mercadal-Baudart, Clara and Blythman, Richard and Smolic, Aljosa and Simms, Ciaran},

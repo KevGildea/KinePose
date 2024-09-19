@@ -1,6 +1,8 @@
-## Intrinsics.exe
+## [Intrinsics.exe](Dist/Intrinsics.exe)
 
-This tool performs camera calibration using images of a checkerboard pattern. The calibration process computes the intrinsic camera parameters, including focal lengths and distortion coefficients. Key features:
+This tool performs camera calibration using images of a checkerboard pattern. The calibration process computes the intrinsic camera parameters, including focal lengths and distortion coefficients. Run on a Windows machine as administrator. 
+
+### Key features:
 
 - **Select Image Directory**: Choose a folder containing calibration images in `.png` format.
 - **Checkerboard Specifications**: The tool uses a 10x7 checkerboard with 25mm square sizes. A file, `Checkerboard-A4-25mm-10x7.svg`, is included in the folder for you to download and print.
@@ -17,9 +19,11 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 - **File Output**: The intrinsic matrix is saved in a text format (`.tacal`).
 
 
-## PnP.exe
+## [PnP.exe](Dist/PnP.exe)
 
-This tool facilitates camera pose estimation using a set of 3D world points and corresponding 2D image points. The process calculates the extrinsic parameters of the camera (rotation and translation) using the **Perspective-n-Point** (PnP) algorithm. Key features:
+This tool facilitates camera pose estimation using a set of 3D world points and corresponding 2D image points. The process calculates the extrinsic parameters of the camera (rotation and translation) using the **Perspective-n-Point** (PnP) algorithm. Run on a Windows machine as administrator.
+
+### Key features:
 
 - **Load Image**: Select and display an image to annotate.
 - **Load World Points**: Load a set of 3D world coordinates from a `.txt` file.

@@ -20,7 +20,7 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 
 ```mermaid
 graph LR;
-    Calibration --> Knowable[Knowable Intrinsics: Known camera parameters];
+    Calibration --> Knowable[Knowable Intrinsics: Access to camera];
     Knowable --> Intrinsics[Intrinsics.exe: Tool for intrinsic camera calibration];
     Knowable --> PnP[PnP.exe: Tool for determining camera extrinsics using known intrinsics];
     Calibration --> Unknown[Unknown Intrinsics: Unknown camera parameters];

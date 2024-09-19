@@ -2,7 +2,7 @@
 
 This tool automates human pose annotation in videos using the YOLOv8 model, designed for 2D pose estimation on the MS COCO dataset. Run on a Windows machine as administrator.
 
-###Key features:
+### Key features:
 
 - **Set Start and End Time**: Define the video segment to be processed by specifying the start and end times (in seconds).
 - **Open Video**: Load a video file for pose estimation and annotation.
@@ -21,7 +21,7 @@ This tool automates human pose annotation in videos using the YOLOv8 model, desi
 
 This tool assists with semi-automatic human pose annotation in images using the YOLOv8 model for keypoint detection. Users can refine the automatically detected keypoints by dragging them to the correct locations. Run on a Windows machine as administrator. Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4). 
 
-###Key features:
+### Key features:
 
 - **Open Image**: Load an image for pose annotation.
 - **Automatic Keypoint Detection**: Automatically detects human pose keypoints using the YOLOv8 pose estimator.
@@ -38,7 +38,7 @@ This tool assists with semi-automatic human pose annotation in images using the 
 
 This tool allows for fully manual annotation of human pose keypoints in images. Users manually select each keypoint. Run on a Windows machine as administrator.
 
-###Key features:
+### Key features:
 
 - **Open Image**: Load an image for manual pose annotation.
 - **Manual Keypoint Annotation**: Users click to place keypoints on the image.

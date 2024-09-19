@@ -15,6 +15,12 @@ This tool automates human pose annotation in videos using the YOLOv8 model, desi
 - **Annotated Frames**: Saves each frame as both a raw and annotated image.
 - **Keypoint Data**: Saves the detected keypoints for each frame in a text file (`.txt`) with the coordinates of key body parts.
 
+### GUI
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Auto.PNG" alt="Auto.exe" width="500">
+  <br>
+  <i>The GUI of the Auto.exe application.</i>
+</p>
 
 
 ## [Semi-auto.exe](Dist/Semi-auto.exe)
@@ -33,6 +39,13 @@ This tool assists with semi-automatic human pose annotation in images using the 
 - **Annotated Keypoints**: Saves the manually adjusted keypoints for each body part to the corresponding `.txt` file.
 - **Annotated Images**: Saves two versions of the image, one with keypoints and another with skeletal connections.
 
+### GUI
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Semi-auto.PNG" alt="Semi-auto.exe" width="500">
+  <br>
+  <i>The GUI of the Semi-auto.exe application.</i>
+</p>
+
 
 ## [Manual.exe](Dist/Manual.exe)
 
@@ -50,6 +63,14 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 ### Outputs:
 - **Annotated Keypoints**: Saves the manually selected keypoints for each body part to a corresponding `.txt` file.
 - **Annotated Images**: Saves two versions of the image, one with keypoints and skeletal connections and another with just skeletal connections.
+
+### GUI
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/Manual.PNG" alt="Manual.exe" width="500">
+  <br>
+  <i>The GUI of the Manual.exe application.</i>
+</p>
+
 
 
 ## MSCOCO pose format

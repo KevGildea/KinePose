@@ -1,4 +1,4 @@
-## Intrinsics.exe
+## [Intrinsics.exe](Dist/Intrinsics.exe) (Run as administrator).
 
 This tool performs camera calibration using images of a checkerboard pattern. The calibration process computes the intrinsic camera parameters, including focal lengths and distortion coefficients. Key features:
 

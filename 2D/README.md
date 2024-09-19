@@ -41,6 +41,20 @@ This tool assists with semi-automatic human pose annotation in images using the 
 - **Annotated Images**: Saves two versions of the image, one with keypoints and another with skeletal connections, in `.png` format.
 
 
+## Manual.exe
+
+This tool allows for fully manual annotation of human pose keypoints in images. Users manually select each keypoint for precise control over pose estimation. Key features:
+
+- **Open Image**: Load an image for manual pose annotation.
+- **Manual Keypoint Annotation**: Users click to place keypoints (e.g., nose, eyes, shoulders, elbows) on the image.
+- **Keypoint Visualization**: Displays each keypoint as it is annotated, with labels showing the body part.
+- **Undo Annotation**: Right-click to undo the last annotated keypoint.
+- **Save Annotations**: Save the manually annotated keypoints to a `.txt` file.
+- **Save Annotated Images**: Save the image with visualized keypoints and skeletal connections.
+
+### Outputs:
+- **Annotated Keypoints**: Saves the manually selected keypoints for each body part to a `.txt` file.
+- **Annotated Images**: Saves two versions of the image, one with keypoints and skeletal connections and another with just skeletal connections, in `.png` format.
 
 
 

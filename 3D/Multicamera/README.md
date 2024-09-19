@@ -1,6 +1,6 @@
 ## [wMP.exe](Dist/wMP.exe)
 
-This tool performs 3D human pose reconstruction using the **weighted midpoint triangulation** method with camera calibration and 2D keypoint data from two different camera views. It allows users to visualise and refine 3D poses using a graphical interface. Run on a Windows machine as administrator.
+This tool performs 3D human pose reconstruction using the **weighted midpoint triangulation** method with camera calibration and 2D keypoint data from two different camera views. It allows users to visualise 3D poses using a graphical interface. Run on a Windows machine as administrator.
 
 ### Key features:
 

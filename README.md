@@ -44,10 +44,10 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 
 ```mermaid
 graph TD;
-    Calibration --> |Knowable_intrinsics| Knowable[Knowable Intrinsics];
+    Calibration --> Knowable[Knowable Intrinsics];
     Knowable --> Intrinsics[Intrinsics.exe];
     Knowable --> PnP[PnP.exe];
-    Calibration --> |Unknown_intrinsics| Unknown[Unknown Intrinsics];
+    Calibration --> Unknown[Unknown Intrinsics];
     Unknown --> Tsai[Tsai Method];
     
     2D --> Auto[Auto.exe];

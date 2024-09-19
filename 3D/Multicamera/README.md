@@ -6,7 +6,7 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
 
 - **Load Calibration and Keypoints**: Load camera calibration files and folders containing 2D keypoints for triangulation.
 - **Weighted Midpoint Triangulation**: Uses weighted midpoint triangulation to estimate 3D poses from two camera views, with optional confidence weights for improved accuracy.
-- **COCO-to-H36M Mapping**: Maps keypoints from MSCOCO format to the Human3.6M (H36M) format for pose reconstruction.
+- **COCO-to-H36M Mapping**: Maps keypoints from MS COCO format to the Human3.6M (H36M) format for pose reconstruction.
 - **Pose Visualisation**: Provides an interactive 3D visualisation of the reconstructed pose, with sliders to explore different frames and animated pose playback.
 - **Savitzky-Golay Smoothing**: Smooths the pose data over time using the Savitzky-Golay filter to reduce noise.
 - **Save 3D Keypoints**: Outputs the 3D pose keypoints in a text file for further processing.

@@ -15,5 +15,13 @@ This tool reconstructs 3D human poses from 2D pose sequences using deep learning
 - **Visualisation**: Renders and saves the 3D pose reconstruction as a video or image.
 
 
+### GUI
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/3DMonocular.PNG" alt="3DMonocular.exe" width="500">
+  <br>
+  <i>The GUI of the 3DMonocular.exe application.</i>
+</p>
+
+
 ## To Do:
 1. 

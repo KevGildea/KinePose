@@ -21,13 +21,13 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 ### GUI
 
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose1.PNG" alt="KinePose.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose1.PNG" alt="KinePose.exe" width="400">
   <br>
   <i>The GUI of the KinePose.exe application.</i>
 </p>
 
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose2.PNG" alt="KinePose.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose2.PNG" alt="KinePose.exe" width="400">
   <br>
   <i>Visualisation of the user-defined kinematic chain in the KinePose.exe application.</i>
 </p>
@@ -39,7 +39,7 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 </p>
 
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose4.PNG" alt="KinePose.exe" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/KinePose4.PNG" alt="KinePose.exe" width="400">
   <br>
   <i>Visualisation of pose loss vectors and keypoint indices, and optional setting of initial guess for optimisation in the KinePose.exe application.</i>
 </p>
@@ -52,7 +52,7 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 
 
 <p align="center">
-  <img src="https://github.com/KevGildea/KinePose/blob/main/images/chains.png" alt="KinePose chains" width="500">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/chains.png" alt="KinePose chains" width="700">
   <br>
   <i>Examples of the variety of kinematic chain configurations that may be specified.</i>
 </p>

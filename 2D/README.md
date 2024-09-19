@@ -73,9 +73,9 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 
 
 
-## MSCOCO pose format
+## MS COCO pose format
 
-<img src="../images/MSCOCO.png" alt="MSCOCO pose format" width="100"/>
+<img src="../images/MSCOCO.png" alt="MS COCO pose format" width="100"/>
 
 
 ## To Do:

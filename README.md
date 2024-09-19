@@ -16,30 +16,6 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 
 <img src="images/IRCOBI2024_Fig2.png" alt="KinePose Applications" width="1000"/>
 
-## Citation
-```
-@inproceedings{Gildea22,
-    author    = {Gildea, Kevin and Mercadal-Baudart, Clara and Blythman, Richard and Smolic, Aljosa and Simms, Ciaran},
-    title     = {KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints},
-    booktitle = {Irish Machine Vision and Image Processing Conference (IMVIP)},
-    year      = {2022},
-    doi       = {10.56541/QTUV2945}
-}
-@inproceedings{Gildea24,
-    author    = {Gildea, Kevin and Simms, Ciaran},
-    title     = {KinePose Framework for Computer Vision‐Aided Reconstruction of Pose and Motion in Human Body Models},
-    booktitle = {International Research Council on Biomechanics of Injury (IRCOBI)},
-    year      = {2024}
-}
-@inproceedings{Gildea24b,
-    author    = {Gildea, Kevin and Hall, Daniel and Simms, Ciaran},
-    title     = {Forward dynamics computational modelling of a cyclist fall with the inclusion of protective response using deep learning-based human pose estimation},
-    booktitle = {Journal of Biomechanics},
-    year      = {2024},
-    doi       = {10.1016/j.jbiomech.2024.111959}
-}
-```
-
 ## Flowchart
 
 ```mermaid
@@ -66,6 +42,31 @@ graph LR;
 
 ```
 
+
+
+## Citation
+```
+@inproceedings{Gildea22,
+    author    = {Gildea, Kevin and Mercadal-Baudart, Clara and Blythman, Richard and Smolic, Aljosa and Simms, Ciaran},
+    title     = {KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints},
+    booktitle = {Irish Machine Vision and Image Processing Conference (IMVIP)},
+    year      = {2022},
+    doi       = {10.56541/QTUV2945}
+}
+@inproceedings{Gildea24,
+    author    = {Gildea, Kevin and Simms, Ciaran},
+    title     = {KinePose Framework for Computer Vision‐Aided Reconstruction of Pose and Motion in Human Body Models},
+    booktitle = {International Research Council on Biomechanics of Injury (IRCOBI)},
+    year      = {2024}
+}
+@inproceedings{Gildea24b,
+    author    = {Gildea, Kevin and Hall, Daniel and Simms, Ciaran},
+    title     = {Forward dynamics computational modelling of a cyclist fall with the inclusion of protective response using deep learning-based human pose estimation},
+    booktitle = {Journal of Biomechanics},
+    year      = {2024},
+    doi       = {10.1016/j.jbiomech.2024.111959}
+}
+```
 
 
 ## Funding

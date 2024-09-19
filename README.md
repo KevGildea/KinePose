@@ -20,48 +20,22 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 
 ```mermaid
 graph LR;
-    Calibration --> Knowable[Knowable Intrinsics];
-    Knowable --> Intrinsics[Intrinsics.exe];
-    Knowable --> PnP[PnP.exe];
-    Calibration --> Unknown[Unknown Intrinsics];
-    Unknown --> Tsai[Tsai Method];
+    Calibration --> Knowable[Knowable Intrinsics: Known camera parameters];
+    Knowable --> Intrinsics[Intrinsics.exe: Tool for intrinsic camera calibration];
+    Knowable --> PnP[PnP.exe: Tool for pose estimation using known intrinsics];
+    Calibration --> Unknown[Unknown Intrinsics: Unknown camera parameters];
+    Unknown --> Tsai[Tsai Method: External tool for Tsai calibration method];
     
-    2D --> Auto[Auto.exe];
-    2D --> SemiAuto[Semi-auto.exe];
-    2D --> Manual[Manual.exe];
+    2D --> Auto[Auto.exe: Automatic 2D pose estimation];
+    2D --> SemiAuto[Semi-auto.exe: Semi-automatic 2D pose estimation];
+    2D --> Manual[Manual.exe: Manual 2D pose refinement];
     
-    3D --> Monocular[Monocular];
-    Monocular --> 3DMonocular[3DMonocular.exe];
-    3D --> Multicamera[Multicamera];
-    Multicamera --> wMP[wMP.exe];
+    3D --> Monocular[Monocular: Single camera 3D pose estimation];
+    Monocular --> 3DMonocular[3DMonocular.exe: 3D keypoints from monocular data];
+    3D --> Multicamera[Multicamera: Multi-camera 3D pose estimation];
+    Multicamera --> wMP[wMP.exe: Weighted midpoint triangulation for 3D];
     
-    6DOF --> KinePose[KinePose.exe];
-
-    %% Notes for each branch
-    classDef noteIntrinsics fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef notePnP fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteTsai fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteAuto fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteSemiAuto fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteManual fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteMonocular fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef note3DMonocular fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteMulticamera fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteWMP fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef noteKinePose fill:#f9f,stroke:#333,stroke-width:2px;
-
-    Intrinsics:::noteIntrinsics --> "Tool for intrinsic camera calibration";
-    PnP:::notePnP --> "Tool for pose estimation using known intrinsics";
-    Tsai:::noteTsai --> "External tool for Tsai calibration method";
-    Auto:::noteAuto --> "Automatic 2D pose estimation";
-    SemiAuto:::noteSemiAuto --> "Semi-automatic 2D pose estimation";
-    Manual:::noteManual --> "Manual 2D pose refinement";
-    Monocular:::noteMonocular --> "Single camera 3D pose estimation";
-    3DMonocular:::note3DMonocular --> "3D keypoints from monocular data";
-    Multicamera:::noteMulticamera --> "Multi-camera 3D pose estimation";
-    wMP:::noteWMP --> "Weighted midpoint triangulation for 3D";
-    KinePose:::noteKinePose --> "6 degrees of freedom inverse kinematics tool";
-
+    6DOF --> KinePose[KinePose.exe: 6 degrees of freedom inverse kinematics tool];
 ```
 
 

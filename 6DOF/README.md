@@ -5,7 +5,7 @@ This tool performs 6DOF inverse kinematics (IK) analysis on human pose data usin
 ### Key features:
 
 - **Load Kinematic Chain**: Load the kinematic chain (in Excel format) for the human body model (HBM), defining joint orientations and positions, and joint ranges of motion (ROMs).
-- **Load 3D Keypoints**: Load 3D pose keypoints (in `.txt` format) from the HBM.
+- **Load 3D Keypoints**: Load 3D pose keypoints (in `.txt` format).
 - **Inverse Kinematics**: Perform frame-based or temporal IK optimisation to align the kinematic chain with the loaded 3D pose keypoints.
 - **Manual Repositioning**: Optionally perform manual joint repositioning in the initial frame for greater precision.
 - **Motion Smoothing**: Apply the Savitzky-Golay filter to smooth IK results across frames.

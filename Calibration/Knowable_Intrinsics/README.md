@@ -7,14 +7,14 @@ This tool performs camera calibration using images of a checkerboard pattern. Th
 - **Automatic Checkerboard Detection**: Automatically detects checkerboard corners in the images.
 - **Sub-pixel Refinement**: Improves the accuracy of the detected corners for better calibration results.
 - **Intrinsic Parameter Calculation**: Computes the camera's intrinsic matrix and distortion coefficients based on the checkerboard data.
-- **Save Calibration Data**: Saves the calibration results (intrinsic parameters) to a `.tacal` file in the selected folder, formatted for easy reuse.
+- **Save Calibration Data**: Saves the calibration results (intrinsic parameters) to a `.tacal` file in the selected folder, formatted for later use.
 
 ### Outputs:
 - **Intrinsic Parameters**:
   - Focal lengths (fx, fy)
   - Principal points (Cx, Cy)
   - Radial distortion coefficient (k)
-- **File Output**: The intrinsic matrix is saved in a text format (`.tacal`), including pixel scaling and focal length data.
+- **File Output**: The intrinsic matrix is saved in a text format (`.tacal`).
 
 
 ## PnP.exe
@@ -26,13 +26,13 @@ This tool facilitates camera pose estimation using a set of 3D world points and 
 - **Load .tacal (Intrinsics)**: Load the camera's intrinsic parameters from a `.tacal` file.
 - **Annotate Image**: Manually annotate corresponding 2D image points by clicking on the loaded image.
 - **Pan Functionality**: Navigate the image for precise annotations.
-- **Save Calibration**: Save the computed extrinsic parameters (rotation, translation) to a `.tacal` file, and log reprojection errors.
+- **Save Calibration**: Save the computed extrinsic parameters (rotation, translation) to a new `.tacal` file with an added '_extrinsics' in the name, and log reprojection errors.
 
 ### Outputs:
 - **Extrinsic Parameters**:
   - Rotation matrix (R)
   - Translation vector (T)
-- **File Output**: The extrinsic matrix is saved in the `.tacal` format, updating the previously loaded file with the new extrinsic data.
+- **File Output**: The extrinsic matrix is saved in the `.tacal` format.
 - **Reprojection Error Log**: Saves a log file containing the reprojection errors for each point, as well as the mean and maximum error.
 
 

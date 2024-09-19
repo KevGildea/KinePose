@@ -50,18 +50,15 @@ graph TD;
     Calibration --> Unknown[Unknown Intrinsics];
     Unknown --> Tsai[Tsai Method];
     
-    Calibration --> 2D;
     2D --> Auto[Auto.exe];
     2D --> SemiAuto[Semi-auto.exe];
     2D --> Manual[Manual.exe];
     
-    2D --> 3D;
-    3D --> Monocular[Monocular];
+    3D --> Monocular[3D Monocular];
     Monocular --> 3DMonocular[3DMonocular.exe];
     3D --> Multicamera[Multicamera];
     Multicamera --> wMP[wMP.exe];
     
-    3D --> 6DOF;
     6DOF --> KinePose[KinePose.exe];
 
 ```

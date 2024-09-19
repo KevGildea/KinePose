@@ -15,6 +15,13 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
 - **3D Pose Data**: Saves the 3D keypoints for each frame in a `.txt` file.
 
 
+### GUI
+<p align="center">
+  <img src="https://github.com/KevGildea/KinePose/blob/main/images/wMP.PNG" alt="wMP.exe" width="500">
+  <br>
+  <i>The GUI of the wMP.exe application.</i>
+</p>
+
 
 ## To Do:
 1. Implement weights

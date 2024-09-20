@@ -1,4 +1,5 @@
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)
+![Windows](https://img.shields.io/badge/platform-Windows-blue?logo=windows&logoColor=white)
 ![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.10%20%7C%203.9%20%7C%203.8%20%7C%203.7-blue)
 ![GitHub issues](https://img.shields.io/github/issues/KevGildea/KinePose)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/KevGildea/KinePose)

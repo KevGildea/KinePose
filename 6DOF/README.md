@@ -1,6 +1,6 @@
 ## [KinePose.exe](Dist/KinePose.exe)
 
-This tool performs 6DOF inverse kinematics (IK) analysis on human pose data using 3D keypoints and a user-defined kinematic chain. It includes options for both frame-by-frame and temporal optimisations, with features to load and process kinematic chain data, keypoints, and motion visualisations. Run on a Windows machine as administrator
+This tool performs 6DOF inverse kinematics (IK) analysis on human pose data using 3D keypoints and a user-defined kinematic chain. It includes options for both frame-by-frame and temporal optimisations, with features to load and process kinematic chain data, keypoints, and motion visualisations. Run on a Windows machine as administrator.
 
 ### Key features:
 

@@ -1,6 +1,5 @@
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-red.svg)
 ![Windows](https://img.shields.io/badge/platform-Windows-blue?logo=windows&logoColor=white)
-![Python Version](https://img.shields.io/badge/python-3.11%20|%203.10%20|%203.9%20|%203.8%20|%203.7-blue)
+![Python Version](https://img.shields.io/badge/python-3.11%20|%203.10%20|%203.9%20|%203.8%20|%203.7-orange)
 ![GitHub issues](https://img.shields.io/github/issues/KevGildea/KinePose)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/KevGildea/KinePose)
 ![GitHub stars](https://img.shields.io/github/stars/KevGildea/KinePose?style=social)

@@ -58,4 +58,4 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 
 
 ## To Do:
-1. 
+1. Document the formatting of user inputs, and outputs.

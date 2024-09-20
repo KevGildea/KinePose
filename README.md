@@ -1,5 +1,5 @@
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.10%20%7C%203.8%20%7C%203.9-blue)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-green.svg)
+![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.10%20%7C%203.9%20%7C%203.8%20%7C%203.7-blue)
 ![GitHub issues](https://img.shields.io/github/issues/KevGildea/KinePose)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/KevGildea/KinePose)
 ![GitHub stars](https://img.shields.io/github/stars/KevGildea/KinePose?style=social)

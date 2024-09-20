@@ -1,3 +1,13 @@
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![Build Status](https://github.com/KevGildea/KinePose/actions/workflows/build.yml/badge.svg)
+![GitHub release](https://img.shields.io/github/v/release/KevGildea/KinePose)
+![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.8%20%7C%203.9-blue)
+![Coverage](https://coveralls.io/repos/github/KevGildea/KinePose/badge.svg?branch=main)
+![GitHub issues](https://img.shields.io/github/issues/KevGildea/KinePose)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/KevGildea/KinePose)
+![GitHub stars](https://img.shields.io/github/stars/KevGildea/KinePose?style=social)
+
+
 # KinePose
 
 The KinePose framework employs a modular suite of computer vision (CV) and inverse kinematics (IK) techniques to track human body motions from image/video data.

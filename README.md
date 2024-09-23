@@ -60,7 +60,7 @@ To get the latest version of the source code and retrieve large files tracked by
 
 ```bash
 git lfs install
-git clone https://github.com/yourusername/KinePose.git
+git clone https://github.com/KevGildea/KinePose.git
 cd KinePose
 ```
 

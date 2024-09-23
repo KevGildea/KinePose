@@ -1,5 +1,8 @@
-[![DOI](https://zenodo.org/badge/DOI/10.56541/QTUV2945.svg)](https://doi.org/10.56541/QTUV2945)
+[![GitHub release](https://img.shields.io/github/v/release/yourusername/KinePose.svg)](https://github.com/yourusername/KinePose/releases/latest)
 ![Windows](https://img.shields.io/badge/platform-Windows-white?logo=windows&logoColor=black)
+
+[![DOI](https://zenodo.org/badge/DOI/10.56541/QTUV2945.svg)](https://doi.org/10.56541/QTUV2945)
+
 ![Python Version](https://img.shields.io/badge/python-3.11%20|%203.10%20|%203.9%20|%203.8%20|%203.7-green)
 ![License](https://img.shields.io/github/license/KevGildea/KinePose)
 

@@ -36,7 +36,7 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 If you would like to use KinePose without modifying the source code, follow these steps:
 
 #### 1. Download the Executables
-- Go to the [Releases page](https://github.com/yourusername/KinePose/releases).
+- Go to the [Releases page](https://github.com/KevGildea/KinePose/releases).
 - Download the necessary release assets `KinePose_vX.X.X_Calibration.zip`, `KinePose_vX.X.X_2D.zip`, `KinePose_vX.X.X_3D.zip`, and `KinePose_vX.X.X_6DOF.zip`.
 
 #### 2. Running the Executables

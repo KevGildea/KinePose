@@ -21,7 +21,7 @@ For monocular data, 3D human pose estimation (3DHPE) can subsequently be achieve
 ### Inverse Kinematics Algorithms
 The IK system allows for a fully user-defined kinematic chain, accommodating various joint numbers, placements, configurations, degrees of freedom (DOFs), and ranges of motion (ROMs) as Euler/Cardan angle ranges from the rest pose for HBM-specific results.
 
-Furthermore, specific pose and temporal loss terms, weights, and temporal patch lengths can be tailored to the needs of the analysis. See reference [10.56541/QTUV2945](https://arxiv.org/pdf/2207.12841), with supplementary material ([Supp. Mat.](https://kevgildea.github.io/assets/docs/KinePose/SuppMat.pdf)) for details on the algorithms. The outputs are joint orientations in both global and local coordinate systems, and angular velocities, with optional Savitzky-Golay filtering to reduce noise while preserving key motion features.
+Furthermore, specific pose and temporal loss terms, weights, and temporal patch lengths can be tailored to the needs of the analysis. See reference [10.56541/QTUV2945](https://arxiv.org/pdf/2207.12841) ([Supp. Mat.](https://kevgildea.github.io/assets/docs/KinePose/SuppMat.pdf)) for details on the algorithms. The outputs are joint orientations in both global and local coordinate systems, and angular velocities, with optional Savitzky-Golay filtering to reduce noise while preserving key motion features.
 
 <img src="images/IRCOBI2024_Fig2.png" alt="KinePose Applications" width="1000"/>
 

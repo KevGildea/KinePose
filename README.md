@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/v/release/KevGildea/KinePose.svg)](https://github.com/KevGildea/KinePose/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/KevGildea/KinePose.svg?color=white)](https://github.com/KevGildea/KinePose/releases/latest)
 ![Windows](https://img.shields.io/badge/platform-Windows-white?logo=windows&logoColor=black)
 
 [![DOI](https://zenodo.org/badge/DOI/10.56541/QTUV2945.svg)](https://doi.org/10.56541/QTUV2945)

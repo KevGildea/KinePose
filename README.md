@@ -25,7 +25,46 @@ Furthermore, specific pose and temporal loss terms, weights, and temporal patch 
 
 <img src="images/IRCOBI2024_Fig2.png" alt="KinePose Applications" width="1000"/>
 
-## Flowchart
+
+## Installation Instructions
+
+### For Users (No Development Required)
+
+If you would like to use KinePose without modifying the source code, follow these steps:
+
+#### 1. Download the Executables
+- Go to the [Releases page](https://github.com/yourusername/KinePose/releases).
+- Download the necessary release assets `KinePose_vX.X.X_Calibration.zip`, `KinePose_vX.X.X_2D.zip`, `KinePose_vX.X.X_3D.zip`, and `KinePose_vX.X.X_6DOF.zip`.
+
+#### 2. Running the Executables
+Once the `.exe` files are downloaded, you can run them directly on your Windows machine as administrator.
+
+
+### For Developers (Source Code and Customisation)
+
+If you'd like to modify the KinePose framework, run it from source, or contribute to development, follow these steps:
+
+#### 1. Prerequisites
+Before cloning and running the project, ensure you have the following:
+
+- **Python**: Version 3.7 to 3.11 supported.
+- **Git**: For cloning the repository.
+- **Git LFS (Large File Storage)**: Required for handling large `.exe` and `.bin` files. Install it from [Git LFS](https://git-lfs.github.com/).
+
+#### 2. Cloning the Repository
+
+To get the latest version of the source code and retrieve large files tracked by Git LFS:
+
+```bash
+git lfs install
+git clone https://github.com/yourusername/KinePose.git
+cd KinePose
+```
+
+
+
+
+## Flowchart for usage
 
 ```mermaid
 graph LR;

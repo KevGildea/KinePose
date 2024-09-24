@@ -1,21 +1,21 @@
 ## [KinePose.exe](Dist/KinePose.exe)
 
-This tool performs 6DOF inverse kinematics (IK) analysis on human pose data using 3D keypoints and a user-defined kinematic chain. It includes options for both frame-by-frame and temporal optimisations, with features to load and process kinematic chain data, keypoints, and motion visualisations. Run on a Windows machine as administrator.
+This tool uses inverse kinematics (IK) to map 3D human pose data onto a user-defined kinematic chain. Run on a Windows machine as administrator.
 
 ### Key features:
 
-- **Load Kinematic Chain**: Load the kinematic chain (in Excel format) for the human body model (HBM), defining joint orientations and positions, and joint ranges of motion (ROMs).
-- **Load 3D Keypoints**: Load 3D pose keypoints (in `.txt` format).
-- **Inverse Kinematics**: Perform frame-based or temporal IK optimisation to align the kinematic chain with the loaded 3D pose keypoints.
-- **Motion Smoothing**: Apply the Savitzky-Golay filter to smooth IK results across frames.
+- **Load kinematic chain**: Load the kinematic chain (in Excel format) for the human body model (HBM), defining joint orientations and positions, and joint ranges of motion (ROMs).
+- **Load 3D keypoints**: Load 3D pose keypoints (in `.txt` format).
+- **Inverse kinematics**: Perform frame-based or temporal IK optimisation to align the kinematic chain with the loaded 3D pose keypoints.
+- **Motion smoothing**: Apply the Savitzky-Golay filter to smooth IK results across frames.
 - **Visualisation**: Visualise both the kinematic chain and the pose data, with options to display animations using a slider.
-- **Save Results**: Save the transformation data (local/global orientations, positions, and angular velocities) to Excel files for further analysis.
+- **Save results**: Save the transformation data (local/global orientations, positions, and angular velocities) to Excel files for further analysis.
 
 Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 
 ### Outputs:
-- **Transformation Data**: Saves local and global joint orientations and positions in `.xlsx` files.
-- **Angular Velocities**: Saves angular velocities for each joint in `.xlsx` format.
+- **Transformation data**: Saves local and global joint orientations and positions in `.xlsx` files.
+- **Angular velocities**: Saves angular velocities for each joint in `.xlsx` format.
 
 ### GUI
 
@@ -59,3 +59,4 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 
 ## To Do:
 1. Document the formatting of user inputs, and outputs.
+2. Add user options for smoothing (user-defined, and informed by function value).

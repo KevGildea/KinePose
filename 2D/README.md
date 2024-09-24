@@ -79,5 +79,7 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 
 
 ## To Do:
-1. Outut confidence scores
-2. Custom pose tool
+1. Outut confidence scores.
+2. Custom pose tool.
+3. Ensure annotated images are saved in the same format accross all 2D pose tools.
+4. Ensure 'results' outputs are always saved in a consistent manner accross all tools.

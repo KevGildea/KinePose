@@ -4,16 +4,16 @@ This tool automates human pose annotation in videos using the YOLOv8 model, trai
 
 ### Key features:
 
-- **Set Start and End Time**: Define the video segment to be processed by specifying the start and end times (in seconds).
-- **Open Video**: Load a video file for pose estimation and annotation.
-- **Automatic Pose Detection**: Detects and annotates human poses using the YOLOv8 pose estimator.
-- **Keypoint Connections**: Visualise pose connections for keypoints.
-- **Progress Tracking**: Displays a progress bar while processing video frames.
-- **Save Annotated Frames**: Saves the annotated frames and keypoint data in a designated output folder.
+- **Set start and end time**: Define the video segment to be processed by specifying the start and end times (in seconds).
+- **Open video**: Load a video file for pose estimation and annotation.
+- **Automatic pose detection**: Detects and annotates human poses using the YOLOv8 pose estimator.
+- **Keypoint connections**: Visualise pose connections for keypoints.
+- **Progress tracking**: Displays a progress bar while processing video frames.
+- **Save annotated frames**: Saves the annotated frames and keypoint data in a designated output folder.
 
 ### Outputs:
-- **Annotated Frames**: Saves each frame as both a raw and annotated image.
-- **Keypoint Data**: Saves the detected keypoints for each frame in a text file (`.txt`) with the coordinates of key body parts.
+- **Annotated frames**: Saves each frame as both a raw and annotated image.
+- **Keypoint data**: Saves the detected keypoints for each frame in a text file (`.txt`) with the coordinates of key body parts.
 
 ### GUI
 <p align="center">
@@ -29,15 +29,15 @@ This tool assists with semi-automatic human pose annotation in images using the 
 
 ### Key features:
 
-- **Open Image**: Load an image for pose annotation.
-- **Automatic Keypoint Detection**: Automatically detects human pose keypoints using the YOLOv8 pose estimator.
-- **Manual Keypoint Adjustment**: Allows users to click and drag keypoints to correct their position.
-- **Save Annotations**: Save the adjusted keypoints to the corresponding `.txt` file.
-- **Save Annotated Images**: Save the image with visualised keypoints and skeletal connections.
+- **Open image**: Load an image for pose annotation.
+- **Automatic keypoint detection**: Automatically detects human pose keypoints using the YOLOv8 pose estimator.
+- **Manual keypoint adjustment**: Allows users to click and drag keypoints to correct their position.
+- **Save annotations**: Save the adjusted keypoints to the corresponding `.txt` file.
+- **Save annotated images**: Save the image with visualised keypoints and skeletal connections.
 
 ### Outputs:
-- **Annotated Keypoints**: Saves the manually adjusted keypoints for each body part to the corresponding `.txt` file.
-- **Annotated Images**: Saves two versions of the image, one with keypoints and another with skeletal connections.
+- **Annotated keypoints**: Saves the manually adjusted keypoints for each body part to the corresponding `.txt` file.
+- **Annotated images**: Saves two versions of the image, one with keypoints and another with skeletal connections.
 
 ### GUI
 <p align="center">
@@ -53,16 +53,16 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 
 ### Key features:
 
-- **Open Image**: Load an image for manual pose annotation.
-- **Manual Keypoint Annotation**: Users click to place keypoints on the image.
-- **Keypoint Visualisation**: Displays each keypoint as it is annotated, with labels showing the body part.
-- **Undo Annotation**: Right-click to undo the last annotated keypoint.
-- **Save Annotations**: Save the manually annotated keypoints to a corresponding `.txt` file.
-- **Save Annotated Images**: Save the image with visualised keypoints and skeletal connections.
+- **Open image**: Load an image for manual pose annotation.
+- **Manual keypoint annotation**: Users click to place keypoints on the image.
+- **Keypoint visualisation**: Displays each keypoint as it is annotated, with labels showing the body part.
+- **Undo annotation**: Right-click to undo the last annotated keypoint.
+- **Save annotations**: Save the manually annotated keypoints to a corresponding `.txt` file.
+- **Save annotated images**: Save the image with visualised keypoints and skeletal connections.
 
 ### Outputs:
-- **Annotated Keypoints**: Saves the manually selected keypoints for each body part to a corresponding `.txt` file.
-- **Annotated Images**: Saves two versions of the image, one with keypoints and skeletal connections and another with just skeletal connections.
+- **Annotated keypoints**: Saves the manually selected keypoints for each body part to a corresponding `.txt` file.
+- **Annotated images**: Saves two versions of the image, one with keypoints and skeletal connections and another with just skeletal connections.
 
 ### GUI
 <p align="center">

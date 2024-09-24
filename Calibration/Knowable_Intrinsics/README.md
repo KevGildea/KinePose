@@ -39,7 +39,7 @@ This tool facilitates camera pose estimation using a set of 3D world points and 
 - **Load .tacal (Intrinsics)**: Load the camera's intrinsic parameters from a `.tacal` file.
 - **Annotate Image**: Manually annotate corresponding 2D image points by clicking on the loaded image.
 - **Pan Functionality**: Navigate the image for precise annotations.
-- **Save Calibration**: Save the computed extrinsic parameters (rotation, translation) to a new `.tacal` file with an added '_extrinsics' in the name, and log reprojection errors.
+- **Save Calibration**: Save the computed extrinsic parameters (rotation, translation) to a new `.tacal` file with an added `_extrinsics` in the name, and log reprojection errors.
 
 ### Outputs:
 - **Extrinsic Parameters**:

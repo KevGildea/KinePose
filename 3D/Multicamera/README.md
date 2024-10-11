@@ -33,3 +33,4 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
 ## To Do:
 1. Implement weights
 2. Custom pose tool
+3. Add an option to refine 2D poses through reprojecting each 3D triangulated keypoint back to each image. The viewer should include images from each view with functionality of clicking and dragging keypoint positions, and a visulisation of the resulting changes to the 3D pose.

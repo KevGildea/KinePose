@@ -25,3 +25,5 @@ This tool reconstructs 3D human poses from 2D pose sequences using deep learning
 
 ## To Do:
 1. Ensure 'results' outputs are always saved in a consistent manner accross all tools.
+2. Add visualisation of 3D pose.
+3. Fix threading issue.

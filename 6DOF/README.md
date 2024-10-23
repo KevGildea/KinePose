@@ -62,3 +62,4 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 2. Add user options for smoothing (user-defined, and informed by function value).
 3. Fix threading issue.
 4. Optional input of a custom pose.
+5. Add linear positions and velocities to output.

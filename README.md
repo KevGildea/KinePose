@@ -91,27 +91,47 @@ graph LR;
 
 
 
-## Citations
+## Methods papers
 ```
-@inproceedings{Gildea22,
+@inproceedings{Gildea22IMVIP,
     author    = {Gildea, Kevin and Mercadal-Baudart, Clara and Blythman, Richard and Smolic, Aljosa and Simms, Ciaran},
     title     = {KinePose: A temporally optimized inverse kinematics technique for 6DOF human pose estimation with biomechanical constraints},
     booktitle = {Irish Machine Vision and Image Processing Conference (IMVIP)},
     year      = {2022},
     doi       = {10.56541/QTUV2945}
 }
-@inproceedings{Gildea24,
+
+@inproceedings{Gildea24IRCOBI,
     author    = {Gildea, Kevin and Simms, Ciaran},
     title     = {KinePose Framework for Computer Vision‐Aided Reconstruction of Pose and Motion in Human Body Models},
     booktitle = {International Research Council on Biomechanics of Injury (IRCOBI)},
     year      = {2024}
 }
-@inproceedings{Gildea24b,
+
+```
+
+## Example applications
+```
+@Article{Gildea24JBiomech,
     author    = {Gildea, Kevin and Hall, Daniel and Simms, Ciaran},
     title     = {Forward dynamics computational modelling of a cyclist fall with the inclusion of protective response using deep learning-based human pose estimation},
-    booktitle = {Journal of Biomechanics},
+    journal   = {Journal of Biomechanics},
+    volume    = {163},
+    pages     = {111959},
     year      = {2024},
+    issn      = {0021-9290},
     doi       = {10.1016/j.jbiomech.2024.111959}
+}
+
+@Article{Hall24AppSci,
+    author    = {Hall, Daniel and Gildea, Kevin and Simms, Ciaran},
+    title     = {Drainage Troughs as a Protective Measure in Subway–Pedestrian Collisions: A Multibody Model Evaluation},
+    journal   = {Applied Sciences},
+    volume    = {14},
+    year      = {2024},
+    number    = {22},
+    issn      = {2076-3417},
+    doi       = {10.3390/app142210738}
 }
 ```
 

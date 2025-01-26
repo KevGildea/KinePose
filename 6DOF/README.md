@@ -64,3 +64,4 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 4. Optional input of a custom pose.
 5. Add linear positions and velocities to output.
 6. Add live visualisation of the loss terms, and a final visualisation of convergence (plotting of guesses at various iterations for each frame accross the motion sequence)
+7. Add synthetic data for assessing the algorithm for speed and accuracy (overall and in boundary cases)

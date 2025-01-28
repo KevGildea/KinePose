@@ -66,3 +66,5 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 6. Add live visualisation of the loss terms, and a final visualisation of convergence (plotting of guesses at various iterations for each frame accross the motion sequence)
 7. Add synthetic data for assessing the algorithm for speed and accuracy (overall and in boundary cases)
 8. Investigate Natural and Fully Cartesian Coordinates as an alternative to Relative (recursive) DH formulation for handling closed-loop kinematics. Compare to DH solution with proximity constraints. Resources: [Roupa2022](https://arcade.inesc-id.pt/papers/Roupa2022_Article_OnTheModelingOfBiomechanicalSy.pdf), [Andersen2007](https://elearning.uniroma1.it/pluginfile.php/71316/mod_resource/content/1/2009%20ANDERSEN%20Kinematic%20analysis%20of%20over-determinate%20biomechanical%20system.pdf)).
+9. Allow for setting different temporal weights between joints.
+10. Try implementing a KF approach.

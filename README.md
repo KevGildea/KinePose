@@ -147,3 +147,11 @@ graph LR;
 <a href="https://portal.research.lu.se/en/projects/surrogate-measures-of-safety-for-single-bicycle-crashes">
   <img src="images/TRAFIKVERKET.png" alt="Funded by Organization" width="200"/>
 </a>
+
+
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
+
+To-do lists with individual tasks are includeed in each folder, but here are few 'big'/'broad' ideas:
+- [ ] Add a pose annotator tool similar to [KevGildea/yolo-pose-annotation](https://github.com/KevGildea/yolo-pose-annotation/tree/main) repo, with options for augmented/semi-automatic annotation of standard 17-keypoint COCO data, extended human pose representations, or fully custom keypoint sets, ensuring compatibility with common deep learning frameworks for pose estimation, including Ultralytics YOLOv8, MMPose, Detectron2, and MediaPipe.
+- [ ] Work on adaptations for a multi-person/object tool.

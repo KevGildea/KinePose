@@ -72,4 +72,4 @@ Feel free to submit pull requests or open issues for improvements or bug fixes!
 - [ ] Investigate Natural and Fully Cartesian Coordinates as an alternative to Relative (recursive) DH formulation for handling closed-loop kinematics. Compare to DH solution with proximity constraints. Resources: [Roupa2022](https://arcade.inesc-id.pt/papers/Roupa2022_Article_OnTheModelingOfBiomechanicalSy.pdf), [Andersen2007](https://elearning.uniroma1.it/pluginfile.php/71316/mod_resource/content/1/2009%20ANDERSEN%20Kinematic%20analysis%20of%20over-determinate%20biomechanical%20system.pdf)).
 - [ ] Allow for setting different temporal weights between joints.
 - [ ] Try implementing a KF approach.
-- [ ] Add functionality for custom loss terms to the IK tool, and allow for special physical settings, e.g., nonholonomic constraints.
+- [ ] Add functionality for custom loss terms to the IK tool, and allow for special physical settings, e.g., nonholonomic constraints for rolling disks.

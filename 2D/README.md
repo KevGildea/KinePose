@@ -78,7 +78,10 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 <img src="../images/MSCOCO.png" alt="MS COCO pose format" width="100"/>
 
 
-## To Do:
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
+
+### To Do:
 - [ ] Adapt to output commonly used 2D pose formats.
 - [ ] Outut confidence scores.
 - [ ] Custom pose tool.

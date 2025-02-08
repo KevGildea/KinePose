@@ -63,6 +63,7 @@ Feel free to submit pull requests or open issues for improvements or bug fixes!
 
 ### To Do:
 - [ ] Document the formatting of user inputs, and outputs.
+- [ ] Document and add to common HBM models.
 - [ ] Add user options for smoothing (user-defined, and informed by function value).
 - [ ] Fix threading issue.
 - [ ] Optional input of a custom pose.

@@ -29,8 +29,11 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
   <i>Triangulated pose visualisation in the wMP.exe application.</i>
 </p>
 
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
 
-## To Do:
+### To Do:
+- [ ] 
 - [ ] Adapt to input commonly used 2D pose formats.
 - [ ] Implement weights
 - [ ] Custom pose tool

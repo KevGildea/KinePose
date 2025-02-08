@@ -22,8 +22,11 @@ This tool reconstructs 3D human poses from 2D pose sequences using deep learning
   <i>The GUI of the 3DMonocular.exe application.</i>
 </p>
 
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
 
-## To Do:
-1. Ensure 'results' outputs are always saved in a consistent manner accross all tools.
-2. Add visualisation of 3D pose.
-3. Fix threading issue.
+### To Do:
+- [ ] Adapt to input commonly used 2D pose formats.
+- [ ] Ensure 'results' outputs are always saved in a consistent manner accross all tools.
+- [ ] Add visualisation of 3D pose.
+- [ ] Fix threading issue.

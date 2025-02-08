@@ -60,6 +60,8 @@ This tool facilitates camera pose estimation using a set of 3D world points and 
 
 
 
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
 
-## To Do:
-1. 
+### To Do:
+- [ ] 

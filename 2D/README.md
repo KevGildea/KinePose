@@ -79,9 +79,10 @@ This tool allows for fully manual annotation of human pose keypoints in images. 
 
 
 ## To Do:
-1. Outut confidence scores.
-2. Custom pose tool.
-3. Ensure annotated images are saved in the same format accross all 2D pose tools.
-4. Ensure 'results' outputs are always saved in a consistent manner accross all tools, e.g. in the manual editor, the file name saves differently to the semi auto and automatic annotator.
-5. Allow for dragging keypoints in the manual annotator once they’re plotted (currently the points are locked in place once plotted).
-6. Fix threading issue.
+- [ ] Adapt to output commonly used 2D pose formats.
+- [ ] Outut confidence scores.
+- [ ] Custom pose tool.
+- [ ] Ensure annotated images are saved in the same format accross all 2D pose tools.
+- [ ] Ensure 'results' outputs are always saved in a consistent manner accross all tools, e.g. in the manual editor, the file name saves differently to the semi auto and automatic annotator.
+- [ ] Allow for dragging keypoints in the manual annotator once they’re plotted (currently the points are locked in place once plotted).
+- [ ] Fix threading issue.

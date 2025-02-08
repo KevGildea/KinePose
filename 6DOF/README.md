@@ -57,7 +57,11 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 </p>
 
 
-## To Do:
+
+## Contributing
+Feel free to submit pull requests or open issues for improvements or bug fixes!
+
+### To Do:
 - [ ] Document the formatting of user inputs, and outputs.
 - [ ] Add user options for smoothing (user-defined, and informed by function value).
 - [ ] Fix threading issue.

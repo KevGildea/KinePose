@@ -33,7 +33,6 @@ This tool performs 3D human pose reconstruction using the **weighted midpoint tr
 Feel free to submit pull requests or open issues for improvements or bug fixes!
 
 ### To Do:
-- [ ] 
 - [ ] Adapt to input commonly used 2D pose formats.
 - [ ] Implement weights
 - [ ] Custom pose tool

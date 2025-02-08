@@ -58,13 +58,14 @@ Video demo available here: [VideoDemo_x175.mp4](Demo/VideoDemo_x175.mp4).
 
 
 ## To Do:
-1. Document the formatting of user inputs, and outputs.
-2. Add user options for smoothing (user-defined, and informed by function value).
-3. Fix threading issue.
-4. Optional input of a custom pose.
-5. Add linear positions and velocities to output.
-6. Add live visualisation of the loss terms, and a final visualisation of convergence (plotting of guesses at various iterations for each frame accross the motion sequence)
-7. Add synthetic data for assessing the algorithm for speed and accuracy (overall and in boundary cases)
-8. Investigate Natural and Fully Cartesian Coordinates as an alternative to Relative (recursive) DH formulation for handling closed-loop kinematics. Compare to DH solution with proximity constraints. Resources: [Roupa2022](https://arcade.inesc-id.pt/papers/Roupa2022_Article_OnTheModelingOfBiomechanicalSy.pdf), [Andersen2007](https://elearning.uniroma1.it/pluginfile.php/71316/mod_resource/content/1/2009%20ANDERSEN%20Kinematic%20analysis%20of%20over-determinate%20biomechanical%20system.pdf)).
-9. Allow for setting different temporal weights between joints.
-10. Try implementing a KF approach.
+- [ ] Document the formatting of user inputs, and outputs.
+- [ ] Add user options for smoothing (user-defined, and informed by function value).
+- [ ] Fix threading issue.
+- [ ] Optional input of a custom pose.
+- [ ] Add linear positions and velocities to output.
+- [ ] Add live visualisation of the loss terms, and a final visualisation of convergence (plotting of guesses at various iterations for each frame accross the motion sequence)
+- [ ] Add synthetic data for assessing the algorithm for speed and accuracy (overall and in boundary cases)
+- [ ] Investigate Natural and Fully Cartesian Coordinates as an alternative to Relative (recursive) DH formulation for handling closed-loop kinematics. Compare to DH solution with proximity constraints. Resources: [Roupa2022](https://arcade.inesc-id.pt/papers/Roupa2022_Article_OnTheModelingOfBiomechanicalSy.pdf), [Andersen2007](https://elearning.uniroma1.it/pluginfile.php/71316/mod_resource/content/1/2009%20ANDERSEN%20Kinematic%20analysis%20of%20over-determinate%20biomechanical%20system.pdf)).
+- [ ] Allow for setting different temporal weights between joints.
+- [ ] Try implementing a KF approach.
+- [ ] Add functionality for custom loss terms to the IK tool, and allow for special physical settings, e.g., nonholonomic constraints.

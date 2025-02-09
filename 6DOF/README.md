@@ -74,3 +74,6 @@ Feel free to submit pull requests or open issues for improvements or bug fixes!
 - [ ] Allow for setting different temporal weights between joints.
 - [ ] Try implementing a KF approach.
 - [ ] Add functionality for custom loss terms to the IK tool, and allow for special physical settings, e.g., nonholonomic constraints for rolling disks.
+- [ ] Add options for translational joints.
+- [ ] Add options to set ROMs about specific axes not corresponding to the coordinate system axes.
+- [ ] Add options for rotation order.

@@ -77,3 +77,5 @@ Feel free to submit pull requests or open issues for improvements or bug fixes!
 - [ ] Add options for translational joints.
 - [ ] Add options to set ROMs about specific axes not corresponding to the coordinate system axes.
 - [ ] Add options for rotation order.
+- [ ] Implement reduced precision (float32) in optimisation to improve speed.
+- [ ] Explore parallelisation or alternative optimizers (L-BFGS-B, CMA-ES) for efficiency.
